@@ -28,6 +28,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
@@ -70,6 +72,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.navbar{
+    display:flex;
+    width:100%;
+}
+
+
+
+header div img{
+    padding-top:30px;
+    padding-bottom:50px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500px;
+}
+
+.tcbuttons{
+    display:flex;
+    justify-content: space-evenly;
+    width:100%;
+    align-items:flex-end;
+}
+
+a{
+  text-decoration:;
+  padding:15px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
 
 .top-content {
     display: flex;
@@ -101,10 +135,52 @@ p {
     justify-content: space-evenly;
 }
 
+.b1{
+    background-color:teal;
+}
+
+.b2{
+    background-color:gold;
+}
+
+.b3{
+    background-color:cadetblue;
+
+}
+
+.b4{
+    background-color:coral;
+}
+
+.b5{
+    background-color:crimson;
+}
+
+.b6{
+    background-color:forestgreen;
+}
+
+.b7{
+    background-color:darkorchid;
+}
+
+.b8{
+    background-color:hotpink;
+}
+.b9{
+    background-color:indigo;
+}
+
+.b10{
+    background-color:dodgerblue;
+}
+
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +219,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+.articles{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px 10px 30px 10px;
+    justify-content:space-between;
+}
+
+.articles div{
+    width:350px;
+    padding-top:20px;
+    padding-bottom:30px;
+    border-bottom:1px dotted black;
+    margin-right:10px;
+}
+
+.button{
+    text-overflow: ;
 }
